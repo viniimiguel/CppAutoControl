@@ -1,6 +1,6 @@
-# Cautogui
+# CppAutoControl
 # Requerimentos: OpenCV
-## Considerando a exigência de realizar o reconhecimento de imagem para automações em C++, desenvolvi o Cautogui. Este é uma versão inspirada no PyAutoGUI, porém otimizada para aproveitar a velocidade e os privilégios associados à linguagem de programação C++.
+## Considerando a exigência de realizar o reconhecimento de imagem para automações em C++, desenvolvi o CppAutoControl. Este é uma versão inspirada no PyAutoGUI, porém otimizada para aproveitar a velocidade e os privilégios associados à linguagem de programação C++.
 
 ## Para a implementação do reconhecimento de imagem, foi utilizado o OpenCV. O funcionamento do sistema ocorre da seguinte maneira:
 
