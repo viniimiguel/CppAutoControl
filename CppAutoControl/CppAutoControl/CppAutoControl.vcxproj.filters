@@ -18,5 +18,28 @@
     <ClCompile Include="CppAutoControl.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClCompile>
+    <ClCompile Include="tec.cpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClCompile>
+    <ClCompile Include="screen.cpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mouse.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="tec.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="screen.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoControl.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
