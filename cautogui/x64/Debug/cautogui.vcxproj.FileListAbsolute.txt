@@ -1,1 +1,0 @@
-C:\Users\vinicius\Desktop\c++\cautogui\cautogui\cautogui\x64\Debug\cautogui.vcxproj.CopyComplete
