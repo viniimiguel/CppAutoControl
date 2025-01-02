@@ -1,12 +1,11 @@
 #include <iostream>
-#include "AutoControl.h"
+#include "tec.h"
 
 int main()
 {
-	AutoControl::Mouse mouse;
-	int x = 0, y = 0;
-	mouse.GetMousePosition(x, y);
-
-	std::cout << x << "," << y << std::endl;
+	Tec* t1 = new Tec();
+	Sleep(2000);
+	t1->write("ola mundo");
+	delete t1;
 	return 0;
 }

@@ -1,5 +1,7 @@
 #pragma once
 #include <string>
+#include <thread>
+#include <chrono>
 #include <windows.h>
 class Tec
 {

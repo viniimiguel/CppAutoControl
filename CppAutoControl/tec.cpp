@@ -33,14 +33,24 @@ void Tec::press(BYTE key, int numPress, int delay)
 }
 
 
+void Tec::write(std::string words) {
+    INPUT ip;
+    ip.type = INPUT_KEYBOARD;
+    ip.ki.dwExtraInfo = 0;
+    ip.ki.time = 0;
 
-void Tec::write(std::string words)
-{
-    for (int i = 0; i < words.size(); i++)
-    {
-    	INPUT ip;
+    srand(static_cast<unsigned>(time(0)));
 
+    for (int i = 0; i < words.size(); i++) {
+        ip.ki.wVk = VkKeyScan(words[i]);
+
+        ip.ki.dwFlags = 0;
+        SendInput(1, &ip, sizeof(INPUT));
+
+        Sleep(50 + rand() % 20);
+
+        ip.ki.dwFlags = KEYEVENTF_KEYUP;
+        SendInput(1, &ip, sizeof(INPUT));
     }
 
 }
-
